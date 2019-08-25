@@ -1,0 +1,9 @@
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\bin\Debug\netstandard2.0\HLA_Tracker.Core.deps.json
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\bin\Debug\netstandard2.0\HLA_Tracker.Core.dll
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\bin\Debug\netstandard2.0\HLA_Tracker.Core.pdb
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\obj\Debug\netstandard2.0\HLA_Tracker.Core.csprojAssemblyReference.cache
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\obj\Debug\netstandard2.0\HLA_Tracker.Core.csproj.CoreCompileInputs.cache
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\obj\Debug\netstandard2.0\HLA_Tracker.Core.AssemblyInfoInputs.cache
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\obj\Debug\netstandard2.0\HLA_Tracker.Core.AssemblyInfo.cs
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\obj\Debug\netstandard2.0\HLA_Tracker.Core.dll
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Core\obj\Debug\netstandard2.0\HLA_Tracker.Core.pdb

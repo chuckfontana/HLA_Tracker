@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\chuck\\source\\repos\\HLA_Tracker\\HLA_Tracker.Core\\HLA_Tracker.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\chuck\\source\\repos\\HLA_Tracker\\HLA_Tracker.Core\\HLA_Tracker.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chuck\\source\\repos\\HLA_Tracker\\HLA_Tracker.Core\\HLA_Tracker.Core.csproj",
+        "projectName": "HLA_Tracker.Core",
+        "projectPath": "C:\\Users\\chuck\\source\\repos\\HLA_Tracker\\HLA_Tracker.Core\\HLA_Tracker.Core.csproj",
+        "packagesPath": "C:\\Users\\chuck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chuck\\source\\repos\\HLA_Tracker\\HLA_Tracker.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chuck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
