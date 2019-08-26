@@ -8,8 +8,8 @@ namespace HLA_Tracker.Core.Domain
     {
         public int Id { get; set; }
         public DateTime CreateDateTime { get; set; }
-        public User CreatedByDateTime { get; set; }
+        public User CreatedBy { get; set; }
         public DateTime EditDateTime { get; set; }
-        public DateTime EditedByDateTime { get; set; }
+        public User EditedBy { get; set; }
     }
 }

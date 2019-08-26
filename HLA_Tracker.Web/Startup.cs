@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HLA_Tracker.Core.Interfaces;
+using HLA_Tracker.Core.Services;
+using HLA_Tracker.Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -33,6 +36,8 @@ namespace HLA_Tracker.Web
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddTransient<IPatientDataService, PatientDataService>();
+            services.AddTransient<IPatientData, PatientData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

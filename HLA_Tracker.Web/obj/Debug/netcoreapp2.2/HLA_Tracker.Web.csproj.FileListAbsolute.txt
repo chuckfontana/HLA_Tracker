@@ -28,3 +28,8 @@ C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\HLA_Tracker.Web.dll
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\HLA_Tracker.Web.pdb
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\HLA_Tracker.Web.csproj.CopyComplete
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\bin\Debug\netcoreapp2.2\HLA_Tracker.Core.dll
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\bin\Debug\netcoreapp2.2\HLA_Tracker.Core.pdb
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\Razor\Pages\Patients\List.g.cshtml.cs
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\bin\Debug\netcoreapp2.2\HLA_Tracker.Infrastructure.dll
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\bin\Debug\netcoreapp2.2\HLA_Tracker.Infrastructure.pdb

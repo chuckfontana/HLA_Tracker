@@ -1,0 +1,21 @@
+﻿@page
+@model HLA_Tracker.Web.Pages.Patients.ListModel
+@{
+    ViewData["Title"] = "PatientList";
+}
+
+<h1>Patient List</h1>
+
+<div>
+    <table class="table">
+        @foreach (var patient in Model.Patients)
+        {
+            <tr>
+                <td>@patient.LastName</td>
+                <td>@patient.FirstName</td>
+                <td>@patient.DateOfBirth.ToString("MM/dd/yyyy")</td>
+            </tr>
+        }
+    </table>
+</div>
+
