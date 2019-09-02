@@ -1,0 +1,10 @@
+﻿@page "{patientId:int}"
+@model HLA_Tracker.Web.Pages.Patients.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>@Model.Patient.FullName </h1>
+
+<a asp-page="./List" class="btn btn-primary">All Patients</a>
+

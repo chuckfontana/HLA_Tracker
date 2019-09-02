@@ -15,13 +15,16 @@ namespace HLA_Tracker.Web.Pages.Patients
 
         public IEnumerable<Patient> Patients { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
+
         public ListModel(IPatientDataService patientDataSerice)
         {
             _patientDataService = patientDataSerice;
         }
         public void OnGet()
         {
-            this.Patients = _patientDataService.GetAllPatients();
+            this.Patients = _patientDataService.GetPatientByName(SearchTerm);
         }
     }
 }

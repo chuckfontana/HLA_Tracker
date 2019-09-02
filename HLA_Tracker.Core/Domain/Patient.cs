@@ -15,7 +15,6 @@ namespace HLA_Tracker.Core.Domain
         public Gender Gender { get; set; }
         public Race Race { get; set; }
         public string SSN { get; set; }
-
-
+        public string FullName { get { return $"{LastName}, {FirstName}"; }}
     }
 }

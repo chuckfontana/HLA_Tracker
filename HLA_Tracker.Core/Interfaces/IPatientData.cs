@@ -7,6 +7,7 @@ namespace HLA_Tracker.Core.Interfaces
 {
     public interface IPatientData
     {
-        IEnumerable<Patient> GetAllPatients();
+        IEnumerable<Patient> GetPatientByName(string name);
+        Patient GetById(int id);
     }
 }

@@ -14,9 +14,13 @@ namespace HLA_Tracker.Core.Services
         {
             _patientData = patientData;
         }
-        public IEnumerable<Patient> GetAllPatients()
+        public IEnumerable<Patient> GetPatientByName(string name)
         {
-            return _patientData.GetAllPatients();
+            return _patientData.GetPatientByName(name);
+        }
+        public Patient GetById(int id)
+        {
+            return _patientData.GetById(id);
         }
     }
 }

@@ -7,6 +7,18 @@
 <h1>Patient List</h1>
 
 <div>
+    <form method="get">
+        <div class="form-group">
+            <div class="input-group">
+                <input type="search" class="form-control" asp-for="SearchTerm" />
+                <span class="input-group-append">
+                    <button class="btn btn-outline-secondary">
+                        <i style="font-size:16px" class="fa">&#xf002;</i>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </form>
     <table class="table">
         @foreach (var patient in Model.Patients)
         {
@@ -14,6 +26,13 @@
                 <td>@patient.LastName</td>
                 <td>@patient.FirstName</td>
                 <td>@patient.DateOfBirth.ToString("MM/dd/yyyy")</td>
+                <td>
+                    <a class="btn-lg"
+                       asp-page="./Detail"
+                       asp-route-patientId="@patient.Id">
+                        <i class="fa fa-search-plus"></i>
+                    </a>
+                </td>
             </tr>
         }
     </table>

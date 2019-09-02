@@ -67,13 +67,29 @@ namespace HLA_Tracker.Infrastructure.TestData
 
             patients.Add(new Patient
             {
-                Id = 1,
-                LastName = "Robinson",
-                FirstName = "Monique",
+                Id = 2,
+                LastName = "Brown",
+                FirstName = "Lucy",
                 DateOfBirth = new DateTime(1950, 9, 14),
                 MRN = "1234556",
                 SSN = "234-33-4444,",
                 Gender = Gender.Female,
+                Race = _races[1],
+                CreateDateTime = DateTime.Now,
+                CreatedBy = _users[0],
+                EditDateTime = DateTime.Now,
+                EditedBy = _users[0]
+            });
+
+            patients.Add(new Patient
+            {
+                Id = 3,
+                LastName = "Man",
+                FirstName = "Spider",
+                DateOfBirth = new DateTime(1970, 8, 4),
+                MRN = "65656878",
+                SSN = "854-87-1111,",
+                Gender = Gender.Male,
                 Race = _races[0],
                 CreateDateTime = DateTime.Now,
                 CreatedBy = _users[0],
