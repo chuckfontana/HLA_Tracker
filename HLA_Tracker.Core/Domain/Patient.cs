@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using static HLA_Tracker.Core.Domain.Enums;
+using HLA_Tracker.Core.Domain;
 
 namespace HLA_Tracker.Core.Domain
 {

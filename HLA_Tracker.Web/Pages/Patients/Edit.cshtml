@@ -1,0 +1,34 @@
+﻿@page "{patientId:int}"
+@model HLA_Tracker.Web.Pages.Patients.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit @Model.Patient.FullName</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Patient.Id" />
+
+    <div class="form-group">
+        <label asp-for="Patient.LastName">Last Name</label>
+        <input asp-for="Patient.LastName" required="required" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.FirstName">First Name</label>
+        <input asp-for="Patient.FirstName" required="required" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.MRN">MRN</label>
+        <input asp-for="Patient.MRN" required="required" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Patient.Gender">Gender</label>
+        <select class="form-control" asp-for="Patient.Gender" asp-items="@Model.Genders">
+ 
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button name="saveButton" type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>

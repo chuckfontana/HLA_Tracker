@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static HLA_Tracker.Core.Domain.Enums;
 
 namespace HLA_Tracker.Infrastructure.TestData
 {

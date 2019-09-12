@@ -35,3 +35,4 @@ C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.g.cshtml.cs
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\Razor\Pages\Patients\Detail.g.cshtml.cs
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\Razor\Pages\Patients\NotFound.g.cshtml.cs
+C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Web\obj\Debug\netcoreapp2.2\Razor\Pages\Patients\Edit.g.cshtml.cs

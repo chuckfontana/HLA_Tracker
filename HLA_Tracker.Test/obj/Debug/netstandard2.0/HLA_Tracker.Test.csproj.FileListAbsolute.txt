@@ -6,4 +6,3 @@ C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Test\obj\Debug\netstandard2.
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Test\obj\Debug\netstandard2.0\HLA_Tracker.Test.AssemblyInfo.cs
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Test\obj\Debug\netstandard2.0\HLA_Tracker.Test.dll
 C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Test\obj\Debug\netstandard2.0\HLA_Tracker.Test.pdb
-C:\Users\chuck\source\repos\HLA_Tracker\HLA_Tracker.Test\obj\Debug\netstandard2.0\HLA_Tracker.Test.csprojAssemblyReference.cache

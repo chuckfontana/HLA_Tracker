@@ -22,18 +22,25 @@
     <table class="table">
         @foreach (var patient in Model.Patients)
         {
-            <tr>
-                <td>@patient.LastName</td>
-                <td>@patient.FirstName</td>
-                <td>@patient.DateOfBirth.ToString("MM/dd/yyyy")</td>
-                <td>
-                    <a class="btn-lg"
-                       asp-page="./Detail"
-                       asp-route-patientId="@patient.Id">
-                        <i class="fa fa-search-plus"></i>
-                    </a>
-                </td>
-            </tr>
+        <tr>
+            <td>@patient.LastName</td>
+            <td>@patient.FirstName</td>
+            <td>@patient.DateOfBirth.ToString("MM/dd/yyyy")</td>
+            <td>
+                <a class="btn-lg"
+                   asp-page="./Detail"
+                   asp-route-patientId="@patient.Id">
+                    <i class="fa fa-search-plus"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn-lg"
+                   asp-page="./Edit"
+                   asp-route-patientId="@patient.Id">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true" title="Edit"></i>
+                </a>
+            </td>
+        </tr>
         }
     </table>
 </div>
