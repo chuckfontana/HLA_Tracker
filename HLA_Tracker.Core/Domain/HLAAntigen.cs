@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HLA_Tracker.Core.Domain
 {
-    public class HLAAntigen:BaseObject
+    public class HLAAntigen:BaseEntity
     {
         public string Locus{ get; set; }
         public string Antigen { get; set; }

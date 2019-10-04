@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HLA_Tracker.Core.Domain
 {
-    public class SerologicalType:BaseObject
+    public class SerologicalType:BaseEntity
     {
         public Patient Patient { get; set; }
         public string A1 { get; set; }

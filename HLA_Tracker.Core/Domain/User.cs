@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HLA_Tracker.Core.Domain
 {
-    public class User:BaseObject
+    public class User:BaseEntity
     { 
         public string LastName { get; set; }
         public string FirstName { get; set; }

@@ -5,7 +5,7 @@ using HLA_Tracker.Core.Domain;
 
 namespace HLA_Tracker.Core.Domain
 {
-    public class Patient:BaseObject
+    public class Patient:BaseEntity
     {
         public string MRN { get; set; }
         public string LastName { get; set; }

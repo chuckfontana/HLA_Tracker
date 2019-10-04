@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HLA_Tracker.Core.Domain
 {
-    public class BaseObject
+    public class BaseEntity
     {
         public int Id { get; set; }
         public DateTime CreateDateTime { get; set; }
